@@ -1,4 +1,4 @@
-# wp_download_tracking
+# ga_download_tracking
 
 Javascript Code for Download Tracking on Wordpress using Google Analytics. It'll also work for other websites, but was developed on a Wordpress site. There's loads of other plugins that will do this, but this is a very lightweight of handling downloads with minimal server-side code. If the theme allows addition of JS code in the `<body>` that'd be a simple way to add the code.
 

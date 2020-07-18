@@ -18,6 +18,5 @@ jQuery(document).ready(function($) {
   $('a[href]').each(function() {
     $(this).attr('href').match(/\.(pdf|docx?|ppt|ppx|pps)$/i) && 
       $(this).click(function() { do_track($(this)); });
-      return false;
   });
 })

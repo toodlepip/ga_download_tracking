@@ -37,3 +37,8 @@ If you're linking to a file ending in any of the following the link will be auto
 - gz
 
 otherwise add the `report_download` class to a link or a container for a link and that'll be tracked as well. The script will try and store the referring URL if it's possible.
+
+## REFERENCES
+
+- To add Google Analytics tracking, try the official [Site Kit plugin](https://wordpress.org/plugins/google-site-kit/)
+- To add Facebook Pixel tracking, try the official [Facebook Pixel plugin](https://en-gb.wordpress.org/plugins/official-facebook-pixel/)

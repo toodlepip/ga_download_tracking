@@ -1,12 +1,18 @@
 # ga_download_tracking
 
-Javascript Code for Download Tracking on Wordpress using Google Analytics. It'll also work for other websites, but was developed on a Wordpress site. There's loads of other plugins that will do this, but this is a very lightweight of handling downloads with minimal server-side code. If the theme allows addition of JS code in the `<body>` that'd be a simple way to add the code.
+Javascript Code for Download Tracking on Wordpress and other sites using Google Analytics, Facebook Pixel and (probably) Twitter conversion pixel.
+
+It'll also work for other websites, but was developed on a Wordpress site. There's loads of other plugins that will do this, but this is a very lightweight of handling downloads with minimal server-side code. If the theme allows addition of JS code in the `<body>` that'd be a simple way to add the code.
 
 ## INTRODUCTION
 
-Little Javascript snippet to add into a Wordpress site to track downloads in Google Analytics (GA)
+Little Javascript snippet to add into a Wordpress site to track downloads in for three services:
 
-GA will happily track page views but for custom events eg. file downloads it doesn't know a button has been clicked to kick off a download. This little script looks for any link on a page to a PDF, Word, Excel document, Powerpoint presenatation, ZIP or Gzip file and fires off a GA event if the link is clicked.
+1. Google Analytics (look in Events, listed as Downloads with the file URL as a Label)
+1. Facebook Pixel (listed as Download events)
+1. Twitter Conversion tracking (tbc, couldn't get the interface working through the Twitter Pixel Helper is showing it works OK)
+
+GA et al will happily track page views but for custom events eg. file downloads it doesn't know a button has been clicked to kick off a download. This little script looks for any link on a page to a PDF, Word, Excel document, Powerpoint presenatation, ZIP or Gzip file and fires off a GA event if the link is clicked.
 
 It also looks for any link with a `report_download` class or a link following a `.report_download` class. This comes in handy if a button or link doesn't directly link to a file type listed above.
 

@@ -18,15 +18,15 @@ Use the code from [wp_download_tracking.js](wp_ga_tracking.js) between `<script>
 
 If you're linking to a file ending in any of the following the link will be automatically tracked:
 
-pdf
-doc
-docx
-ppt
-pptx
-pps
-xls
-xlsx
-zip
-gz
+- pdf
+- doc
+- docx
+- ppt
+- pptx
+- pps
+- xls
+- xlsx
+- zip
+- gz
 
 otherwise add the `report_download` class to a link or a container for a link and that'll be tracked as well. The script will try and store the referring URL if it's possible.

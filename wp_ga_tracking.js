@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
     fb_event(href);
     tw_event();
   }
-  $('.report_download a, a.report_download').click(function() { do_track($(this)); return false; });
+  $('.report_download a, a.report_download').click(function() { do_track($(this)); });
   $('a[href]').each(function() {
     $(this).attr('href').match(/\.(pdf|docx?|pptx?|ppx|pps|xlsx?|zip|gz)$/i) && 
       $(this).click(function() { do_track($(this)); });

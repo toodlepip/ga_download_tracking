@@ -1,4 +1,3 @@
-<script>
 jQuery(document).ready(function($) {
   let ga_event = function(href) {
       typeof(gtag) === "function" && gtag('event', 'download', { 'event_category': 'Downloads', 'event_label': href });
@@ -21,4 +20,3 @@ jQuery(document).ready(function($) {
       $(this).click(function() { do_track($(this)); });
   });
 })
-</script>
